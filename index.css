@@ -1,4 +1,4 @@
-html, body, div, h1, h2, p, img, nav, p, a, ul, header, section {
+html, body, div, h1, h2, p, img, nav, p, a, header, section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,7 +9,7 @@ html, body, div, h1, h2, p, img, nav, p, a, ul, header, section {
 html, body {
     width: 100%;
     overflow-x: hidden;
-    background-color: #525e65;
+    background-color: #1f2122;
 
 }
 nav {
@@ -101,6 +101,12 @@ h2 {
     margin-bottom: 2rem;
 
 }
+.categoryHeader {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 4px solid #525e65;
+}
+
 .categorySection {
     margin: 6rem 0;
     text-align: center;
@@ -126,4 +132,19 @@ h2 {
 }
 .skillDiv p {
     margin-top: 1rem;
+}
+.moreInformation {
+    width: 100%;
+    text-align: end;
+}
+.moreInformation a {
+    padding: 10px;
+    border: 2px solid rgb(21, 129, 244);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 12px -2px;
+
+}
+.moreInformation a:hover {
+    background-color: rgb(21, 129, 244);
+
 }
