@@ -19,6 +19,7 @@ nav {
     text-align: center;
     z-index: 999;
     overflow: hidden;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
 }
 li {
     display: inline;
