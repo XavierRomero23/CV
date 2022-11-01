@@ -1,17 +1,99 @@
-html {
+html, body, div, h1, h2, p, img, nav, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+html, body {
     width: 100%;
     overflow-x: hidden;
+    background-image: url('assets/c.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 nav {
     position: fixed;
     background-color: #525e65;
     width: 100%;
     text-align: center;
+    z-index: 999;
 }
-.topHeader {
+li {
+    display: inline;
+}
+a:link {
+    text-decoration: none;
+}
+li a:hover {
+    color: springgreen;
+
+}
+#site-header {
     position: relative;
     width: 100%;
     height: 100vh;
     min-height: 40rem;
     padding-top: 3rem;
 }
+.topHeader {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 1200px;
+
+}
+.title-home {
+    position: relative;
+    padding: 2em 0;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: xx-large;
+}
+.div-photo {
+    position: relative;
+    width: 18em;
+    height: 12em;
+    margin: 0 auto;
+
+}
+.test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9em;
+    height: 9em;
+    margin-top: -4.5em;
+    margin-left: -4.5em;
+
+}
+.me-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+.intro {
+    width: 28rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+/*@media only screen and (min-width: 75rem) .topHeader {
+    
+}*/
