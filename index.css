@@ -1,4 +1,4 @@
-html, body, div, h1, h2, p, img, nav, p, a {
+html, body, div, h1, h2, p, img, nav, p, a, ul, header, section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,9 +9,8 @@ html, body, div, h1, h2, p, img, nav, p, a {
 html, body {
     width: 100%;
     overflow-x: hidden;
-    background-image: url('assets/c.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: #525e65;
+
 }
 nav {
     position: fixed;
@@ -19,25 +18,34 @@ nav {
     width: 100%;
     text-align: center;
     z-index: 999;
+    overflow: hidden;
 }
 li {
     display: inline;
+}
+a {
+    padding-bottom: 0.5%;
+    margin-left: 1%;
 }
 a:link {
     text-decoration: none;
 }
 li a:hover {
     color: springgreen;
+    border-bottom: 4px solid springgreen;
 
 }
 #site-header {
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     position: relative;
     width: 100%;
     height: 100vh;
     min-height: 40rem;
     padding-top: 3rem;
 }
-.topHeader {
+.container {
     width: 100%;
     margin: 0 auto;
     padding-right: 1rem;
@@ -50,7 +58,7 @@ li a:hover {
     padding: 2em 0;
     text-align: center;
 }
-h1 {
+.title-home h1 {
     font-size: 80px;
 }
 h2 {
@@ -93,7 +101,29 @@ h2 {
     margin-bottom: 2rem;
 
 }
-
-/*@media only screen and (min-width: 75rem) .topHeader {
-    
-}*/
+.categorySection {
+    margin: 6rem 0;
+    text-align: center;
+}
+.categorySection h1 {
+    font-size: 40px;
+}
+.skillSection {
+    text-align: center;
+    list-style: none;
+    margin-left: 0;
+}
+.skillSection li {
+    display: inline-block;
+    margin: 0.5rem;
+    vertical-align: middle;
+}
+.skillImg {
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.skillDiv p {
+    margin-top: 1rem;
+}
