@@ -14,7 +14,7 @@ html, body {
 }
 nav {
     position: fixed;
-    background-color: #525e65;
+    background-color: #4c4c4c;
     width: 100%;
     text-align: center;
     z-index: 999;
@@ -24,7 +24,7 @@ nav {
 li {
     display: inline;
 }
-a {
+li a {
     padding-bottom: 0.5%;
     margin-left: 1%;
 }
@@ -32,18 +32,18 @@ a:link {
     text-decoration: none;
 }
 li a:hover {
-    color: springgreen;
-    border-bottom: 4px solid springgreen;
+    color: rgb(21, 129, 244);
+    border-bottom: 4px solid rgb(21, 129, 244);
 
 }
 #site-header {
-    background-image: url('assets/background.jpg');
+    background-image: url('assets/b3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
     width: 100%;
     height: 100vh;
-    min-height: 40rem;
+    min-height: 50rem;
     padding-top: 3rem;
 }
 .container {
@@ -88,7 +88,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: #a5a9aa;
     border-radius: 50%;
     border: 2px solid white;
     
@@ -101,13 +101,35 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
+    border-radius: 50px;
+    height: 15rem;
+    background: #4f4f4f;
+    box-shadow:  -12px 12px 24px #3b3b3b,
+    12px -12px 24px #636363;
+
+}
+.intro div {
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.intro-info a {
+    display: flex;;
+}
+lord-icon {
+    width:25px;
+    height:25px;
+    margin-right: 1rem;
 }
 .categoryHeader {
     text-align: center;
     padding: 10px;
     border-bottom: 4px solid #525e65;
 }
-
+.categoryHeader h1 {
+    padding-top: 6rem;
+}
 .categorySection {
     margin: 6rem 0;
     text-align: center;
