@@ -1,4 +1,4 @@
-html, body, div, h1, h2, p, img, nav, p, a, header, section {
+html, body, div, h1, h2, p, img, nav, p, a, header, section, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,6 +20,10 @@ nav {
     z-index: 999;
     overflow: hidden;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+ul {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 li {
     display: inline;
