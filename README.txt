@@ -1,0 +1,11 @@
+I made this project with the finality of  make a CV that could be usefull for these companies that should be interested in my habilities and competencies. 
+An other final user could be the people that are interesed in know more about me.
+
+In this CV website, firstly I expose my full name followed by my contact information. 
+Furthermore, I've decided to dedicate a space where I specify my skills, my employments , my education and finally the languages that I speak.
+
+The architecture of the page that I have decided to make a single page project, but I've added a button in the employment section because I've found it important to specify more the tasks that I've carried out.
+
+
+Finally, for the visual design I used dark palette combinated with bisque for the some titles and white for the others and full text.
+For the typography I choosed two different text fonts. They are Arial and Comfortaa.
