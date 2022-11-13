@@ -9,3 +9,12 @@ The architecture of the page that I have decided to make a single page project, 
 
 Finally, for the visual design I used dark palette combinated with bisque for the some titles and white for the others and full text.
 For the typography I choosed two different text fonts. They are Arial and Comfortaa.
+
+The layout of the page is divided in two sections header and main. In main is divided into four sections (Skills, employment, education and Languages) and in section employment has a button on explain more my experience in these employments. 
+
+Resources:
+	-Icons: https://lordicon.com/
+	-Card form contact information: https://neumorphism.io/#e0e0e0 
+
+Figma: https://www.figma.com/file/b16IdDjEcbglTd4sB00Wrq/Ex1-XavierRomeroMarin?node-id=0%3A1
+GithubPages: https://xavierromero23.github.io/CV/
