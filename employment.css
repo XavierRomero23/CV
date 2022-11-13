@@ -45,10 +45,6 @@ li a:hover {
     border-bottom: 4px solid rgb(21, 129, 244);
 
 }
-#site-header {
-    position: relative;
-    padding-top: 3rem;
-}
 .container {
     width: 100%;
     margin: 0 auto;
@@ -69,114 +65,23 @@ li a:hover {
 h2 {
     font-size: xx-large;
 }
-.div-photo {
-    position: relative;
-    width: 18em;
-    height: 12em;
-    margin: 0 auto;
-
-}
-.test {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 9em;
-    height: 9em;
-    margin-top: -4.5em;
-    margin-left: -4.5em;
-
-}
-.me-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #a5a9aa;
-    border-radius: 50%;
-    border: 2px solid white;
-    
-}
-.intro {
-    width: 28rem;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    text-align: justify;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
-    border-radius: 50px;
-    height: 15rem;
-    background: #4f4f4f;
-    box-shadow:  -12px 12px 24px #3b3b3b,
-    12px -12px 24px #636363;
-
-}
-.intro div {
-    padding-top: 30px;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-}
-.intro-info a {
-    display: flex;;
-}
-lord-icon {
-    width:25px;
-    height:25px;
-    margin-right: 1rem;
-}
-.categoryHeader {
+.category-header {
     text-align: center;
     padding: 10px;
     border-bottom: 4px solid #525e65;
 }
-.categorySection {
+.category-section {
     margin: 6rem 0;
     text-align: center;
 }
-.categorySection h1 {
+.category-section h1 {
     padding-top: 6rem;
     font-size: 40px;
     color: bisque;
     font-family: Comfortaa;
 }
-.categorySection div {
+.category-section div {
     margin-top: 2rem;
     font-size: 1.5rem;
     
-}
-.skillSection {
-    text-align: center;
-    list-style: none;
-    margin-left: 0;
-}
-.skillSection li {
-    display: inline-block;
-    margin: 0.5rem;
-    vertical-align: middle;
-}
-.skillImg {
-    width: 10rem;
-    height: 10rem;
-    background-color: white;
-    border-radius: 50%;
-}
-.skillDiv p {
-    margin-top: 1rem;
-}
-.moreInformation {
-    width: 100%;
-    text-align: end;
-}
-.moreInformation a {
-    padding: 10px;
-    border: 2px solid rgb(21, 129, 244);
-    border-radius: 1rem;
-    box-shadow: 0px 0px 12px -2px;
-
-}
-.moreInformation a:hover {
-    background-color: rgb(21, 129, 244);
-
 }

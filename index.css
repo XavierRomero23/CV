@@ -80,7 +80,7 @@ h2 {
     margin: 0 auto;
 
 }
-.test {
+.div-img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,55 +130,55 @@ lord-icon {
     height:25px;
     margin-right: 1rem;
 }
-.categoryHeader {
+.category-header {
     text-align: center;
     padding: 10px;
     border-bottom: 4px solid #525e65;
 }
-.categoryHeader h1 {
+.category-header h1 {
     padding-top: 6rem;
 }
-.categorySection {
+.category-section {
     margin: 6rem 0;
     text-align: center;
 }
-.categorySection h1 {
+.category-section h1 {
     padding-top: 6rem;
     color: bisque;
     font-family: Comfortaa;
     font-size: 40px;
 }
-.skillSection {
+.section {
     text-align: center;
     list-style: none;
     margin-left: 0;
 }
-.skillSection li {
+.section li {
     display: inline-block;
     margin: 0.5rem;
     vertical-align: middle;
 }
-.skillImg {
+.section-img {
     width: 10rem;
     height: 10rem;
     background-color: white;
     border-radius: 50%;
 }
-.skillDiv p {
+.section-div p {
     margin-top: 1rem;
 }
-.moreInformation {
+.more-information {
     width: 100%;
     text-align: end;
 }
-.moreInformation a {
+.more-information a {
     padding: 10px;
     border: 2px solid rgb(21, 129, 244);
     border-radius: 1rem;
     box-shadow: 0px 0px 12px -2px;
 
 }
-.moreInformation a:hover {
+.more-information a:hover {
     background-color: rgb(21, 129, 244);
 
 }
